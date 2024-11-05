@@ -28,5 +28,32 @@ namespace Team3_Project
         {
             InitializeComponent();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void addCarButton_Click(object sender, EventArgs e)
+        {
+            string year = txtYear.Text;
+            string make = txtMake.Text;
+            string model = txtModel.Text;
+
+            if (!string.IsNullOrWhiteSpace(year) &&
+                !string.IsNullOrWhiteSpace(make) &&
+                !string.IsNullOrWhiteSpace(model))
+            {
+                listBox1.Items.Add($"{year} {make} {model}");
+
+                txtYear.Clear();
+                txtMake.Clear();
+                txtModel.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Please enter Year, Make, and Model.", "Missing info", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
     }
 }
