@@ -1,4 +1,4 @@
-﻿using IBM.Data.DB2.iSeries;
+using IBM.Data.DB2.iSeries;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -28,6 +28,22 @@ namespace Team3_Project
         public FlightNumberSeats()
         {
             InitializeComponent();
+        }
+        private void btnShowInfo_Click(object sender, EventArgs e)
+        {
+            string flightNumber = txtFlightNumber.Text;
+
+            if (!string.IsNullOrEmpty(flightNumber))
+            {
+                lstSeatInfo.Items.Add($"Customer info for Flight: {flightNumber}");
+
+                txtFlightNumber.Clear();
+            }
+            else
+            {
+
+                MessageBox.Show("Please enter a flight number.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
