@@ -13,10 +13,10 @@ using System.Windows.Forms;
 //*  IBM and .NET Programming   *//
 //*  Team 3                     *//
 //*                             *//
-//*  Dylan Bradley              *//
+//*  Dylan  Bradley             *//
 //*  Daonte Dallas              *//
-//*  Alex Milchuck              *//
-//*  Kevin Carpenter            *//
+//*  Alex   Milchuck            *//
+//*  Kevin  Carpenter           *//
 //*                             *//
 //*  Fall 2024                  *//
 //*  Professor Pearson          *//
