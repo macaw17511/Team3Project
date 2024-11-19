@@ -54,12 +54,24 @@ namespace Team3_Project
             flightNumberCustomers.Show();
         }
 
+        private void flightNumberCustomersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FlightNumberCustomers flightNumberCustomers = new FlightNumberCustomers();
+            flightNumberCustomers.Show();
+        }
+
 
         /////////////////////////////////////
         //    Flight Number Seats Button
         /////////////////////////////////////
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            FlightNumberSeats flightNumberSeats = new FlightNumberSeats();
+            flightNumberSeats.Show();
+        }
+
+        private void flightNumberSeatsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FlightNumberSeats flightNumberSeats = new FlightNumberSeats();
             flightNumberSeats.Show();
@@ -76,12 +88,24 @@ namespace Team3_Project
             customerNumberPassword.Show();
         }
 
+        private void custNumberPasswordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CustomerNumberPassword customerNumberPassword = new CustomerNumberPassword();
+            customerNumberPassword.Show();
+        }
+
 
         /////////////////////////////////////
         //  Reservation Number Cust Button
         /////////////////////////////////////
 
         private void resNumberCustInfoButton_Click(object sender, EventArgs e)
+        {
+            ReservationNumberInfo reservationNumberInfo = new ReservationNumberInfo();
+            reservationNumberInfo.Show();
+        }
+
+        private void resNumberCustInfoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ReservationNumberInfo reservationNumberInfo = new ReservationNumberInfo();
             reservationNumberInfo.Show();
@@ -113,6 +137,12 @@ namespace Team3_Project
             listAllCustomers.Show();
         }
 
+        private void listAllCustomersToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListAllCustomers listAllCustomers = new ListAllCustomers();
+            listAllCustomers.Show();
+        }
+
 
         /////////////////////////////////////
         //    List all Countries Button
@@ -124,12 +154,24 @@ namespace Team3_Project
             listAllCountries.Show();
         }
 
+        private void listAllCountriesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListAllCountries listAllCountries = new ListAllCountries();
+            listAllCountries.Show();
+        }
+
 
         /////////////////////////////////////
         //     List all Records Button
         /////////////////////////////////////
 
         private void listRecordsButton_Click(object sender, EventArgs e)
+        {
+            ListAllRecords listAllRecords = new ListAllRecords();
+            listAllRecords.Show();
+        }
+
+        private void listAllRecordsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ListAllRecords listAllRecords = new ListAllRecords();
             listAllRecords.Show();
@@ -162,12 +204,24 @@ namespace Team3_Project
             addCustomer.Show();
         }
 
+        private void addACustomerToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddCustomer addCustomer = new AddCustomer();
+            addCustomer.Show();
+        }
+
 
         /////////////////////////////////////
         //      Add a Country Button
         /////////////////////////////////////
 
         private void addCountryButton_Click(object sender, EventArgs e)
+        {
+            AddCountry addCountry = new AddCountry();
+            addCountry.Show();
+        }
+
+        private void addACountryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AddCountry addCountry = new AddCountry();
             addCountry.Show();
@@ -184,6 +238,12 @@ namespace Team3_Project
             addBoat.Show();
         }
 
+        private void addABoatToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AddBoat addBoat = new AddBoat();
+            addBoat.Show();
+        }
+
 
         /////////////////////////////////////
         //        Add a Car Button
@@ -195,91 +255,6 @@ namespace Team3_Project
             addCar.Show();
         }
 
-       
-
-        private void addACustomerToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddCustomer addCustomer = new AddCustomer();
-            addCustomer.Show();
-        }
-
-
-        /////////////////////////////////////
-        //   Flight Number Customer Button
-        /////////////////////////////////////
-        private void flightNumberCustomersToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-            FlightNumberCustomers flightNumberCustomers = new FlightNumberCustomers();
-            flightNumberCustomers.Show();
-        }
-
-        /////////////////////////////////////
-        //    Flight Number Seats Button
-        /////////////////////////////////////
-        private void flightNumberSeatsToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FlightNumberSeats flightNumberSeats = new FlightNumberSeats();
-            flightNumberSeats.Show();
-        }
-
-        /////////////////////////////////////
-        //  Customer Number Password Button
-        /////////////////////////////////////
-        private void custNumberPasswordToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            CustomerNumberPassword customerNumberPassword = new CustomerNumberPassword();
-            customerNumberPassword.Show();
-        }
-
-        /////////////////////////////////////
-        //  Reservation Number Cust Button
-        /////////////////////////////////////
-        private void resNumberCustInfoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ReservationNumberInfo reservationNumberInfo = new ReservationNumberInfo();
-            reservationNumberInfo.Show();
-        }
-
-        /////////////////////////////////////
-        //    List all Customers Button
-        /////////////////////////////////////
-        private void listAllCustomersToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ListAllCustomers listAllCustomers = new ListAllCustomers();
-            listAllCustomers.Show();
-        }
-
-        /////////////////////////////////////
-        //    List all Countries Button
-        /////////////////////////////////////
-        private void listAllCountriesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ListAllCountries listAllCountries = new ListAllCountries();
-            listAllCountries.Show();
-        }
-
-        /////////////////////////////////////
-        //      Add a Country Button
-        /////////////////////////////////////
-        private void addACountryToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddCountry addCountry = new AddCountry();
-            addCountry.Show();
-        }
-
-        /////////////////////////////////////
-        //      Add a Boat Button
-        /////////////////////////////////////
-        private void addABoatToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            AddBoat addBoat = new AddBoat();
-            addBoat.Show();
-        }
-
-        /////////////////////////////////////
-        //      Add a Car Button
-        /////////////////////////////////////
         private void addACarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             AddCar addCar = new AddCar();
