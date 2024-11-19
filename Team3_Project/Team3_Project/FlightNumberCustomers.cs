@@ -29,10 +29,7 @@ namespace Team3_Project
         {
             InitializeComponent();
         }
-        public FlightNumberCustomers()
-{
-    InitializeComponent();
-}
+        
 private void btnShowInfo_Click(object sender, EventArgs e)
 {
     string flightNumber = txtFlightNumber.Text;
