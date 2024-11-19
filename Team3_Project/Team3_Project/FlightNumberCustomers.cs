@@ -29,5 +29,25 @@ namespace Team3_Project
         {
             InitializeComponent();
         }
+        public FlightNumberCustomers()
+{
+    InitializeComponent();
+}
+private void btnShowInfo_Click(object sender, EventArgs e)
+{
+    string flightNumber = txtFlightNumber.Text;
+
+    if (!string.IsNullOrEmpty(flightNumber))
+    {
+        lstCustInfo.Items.Add($"Customer info for Flight: {flightNumber}");
+
+        txtFlightNumber.Clear();
+    }
+    else
+    {
+
+        MessageBox.Show("Please enter a flight number.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+    }
+}
     }
 }
