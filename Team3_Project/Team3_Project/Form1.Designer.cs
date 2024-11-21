@@ -66,7 +66,7 @@ namespace Team3_Project
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(305, 38);
+            this.label1.Location = new System.Drawing.Point(315, 50);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(203, 42);
@@ -78,7 +78,7 @@ namespace Team3_Project
             this.listAllCustomersButton.BackColor = System.Drawing.Color.Black;
             this.listAllCustomersButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listAllCustomersButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.listAllCustomersButton.Location = new System.Drawing.Point(361, 147);
+            this.listAllCustomersButton.Location = new System.Drawing.Point(363, 184);
             this.listAllCustomersButton.Name = "listAllCustomersButton";
             this.listAllCustomersButton.Size = new System.Drawing.Size(105, 38);
             this.listAllCustomersButton.TabIndex = 1;
@@ -91,7 +91,7 @@ namespace Team3_Project
             this.listAllCountriesButton.BackColor = System.Drawing.Color.Black;
             this.listAllCountriesButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listAllCountriesButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.listAllCountriesButton.Location = new System.Drawing.Point(361, 191);
+            this.listAllCountriesButton.Location = new System.Drawing.Point(363, 228);
             this.listAllCountriesButton.Name = "listAllCountriesButton";
             this.listAllCountriesButton.Size = new System.Drawing.Size(105, 38);
             this.listAllCountriesButton.TabIndex = 2;
@@ -104,7 +104,7 @@ namespace Team3_Project
             this.flightNumberCustomersButton.BackColor = System.Drawing.Color.Black;
             this.flightNumberCustomersButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.flightNumberCustomersButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.flightNumberCustomersButton.Location = new System.Drawing.Point(113, 147);
+            this.flightNumberCustomersButton.Location = new System.Drawing.Point(115, 184);
             this.flightNumberCustomersButton.Name = "flightNumberCustomersButton";
             this.flightNumberCustomersButton.Size = new System.Drawing.Size(118, 38);
             this.flightNumberCustomersButton.TabIndex = 3;
@@ -117,7 +117,7 @@ namespace Team3_Project
             this.button1.BackColor = System.Drawing.Color.Black;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(113, 191);
+            this.button1.Location = new System.Drawing.Point(115, 228);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(118, 38);
             this.button1.TabIndex = 4;
@@ -130,7 +130,7 @@ namespace Team3_Project
             this.customerNumberPasswordButton.BackColor = System.Drawing.Color.Black;
             this.customerNumberPasswordButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.customerNumberPasswordButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.customerNumberPasswordButton.Location = new System.Drawing.Point(113, 235);
+            this.customerNumberPasswordButton.Location = new System.Drawing.Point(115, 272);
             this.customerNumberPasswordButton.Name = "customerNumberPasswordButton";
             this.customerNumberPasswordButton.Size = new System.Drawing.Size(118, 38);
             this.customerNumberPasswordButton.TabIndex = 5;
@@ -143,7 +143,7 @@ namespace Team3_Project
             this.resNumberCustInfoButton.BackColor = System.Drawing.Color.Black;
             this.resNumberCustInfoButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resNumberCustInfoButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.resNumberCustInfoButton.Location = new System.Drawing.Point(113, 279);
+            this.resNumberCustInfoButton.Location = new System.Drawing.Point(115, 316);
             this.resNumberCustInfoButton.Name = "resNumberCustInfoButton";
             this.resNumberCustInfoButton.Size = new System.Drawing.Size(118, 38);
             this.resNumberCustInfoButton.TabIndex = 6;
@@ -156,7 +156,7 @@ namespace Team3_Project
             this.addCustomerButton.BackColor = System.Drawing.Color.Black;
             this.addCustomerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCustomerButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.addCustomerButton.Location = new System.Drawing.Point(609, 147);
+            this.addCustomerButton.Location = new System.Drawing.Point(611, 184);
             this.addCustomerButton.Name = "addCustomerButton";
             this.addCustomerButton.Size = new System.Drawing.Size(105, 38);
             this.addCustomerButton.TabIndex = 7;
@@ -169,7 +169,7 @@ namespace Team3_Project
             this.addCountryButton.BackColor = System.Drawing.Color.Black;
             this.addCountryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCountryButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.addCountryButton.Location = new System.Drawing.Point(609, 191);
+            this.addCountryButton.Location = new System.Drawing.Point(611, 228);
             this.addCountryButton.Name = "addCountryButton";
             this.addCountryButton.Size = new System.Drawing.Size(105, 38);
             this.addCountryButton.TabIndex = 8;
@@ -182,7 +182,7 @@ namespace Team3_Project
             this.addBoatButton.BackColor = System.Drawing.Color.Black;
             this.addBoatButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addBoatButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.addBoatButton.Location = new System.Drawing.Point(609, 235);
+            this.addBoatButton.Location = new System.Drawing.Point(611, 272);
             this.addBoatButton.Name = "addBoatButton";
             this.addBoatButton.Size = new System.Drawing.Size(105, 38);
             this.addBoatButton.TabIndex = 9;
@@ -195,7 +195,7 @@ namespace Team3_Project
             this.addCarButton.BackColor = System.Drawing.Color.Black;
             this.addCarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.addCarButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.addCarButton.Location = new System.Drawing.Point(609, 279);
+            this.addCarButton.Location = new System.Drawing.Point(611, 316);
             this.addCarButton.Name = "addCarButton";
             this.addCarButton.Size = new System.Drawing.Size(105, 38);
             this.addCarButton.TabIndex = 10;
@@ -208,7 +208,7 @@ namespace Team3_Project
             this.listRecordsButton.BackColor = System.Drawing.Color.Black;
             this.listRecordsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listRecordsButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.listRecordsButton.Location = new System.Drawing.Point(361, 235);
+            this.listRecordsButton.Location = new System.Drawing.Point(363, 272);
             this.listRecordsButton.Name = "listRecordsButton";
             this.listRecordsButton.Size = new System.Drawing.Size(105, 38);
             this.listRecordsButton.TabIndex = 11;
@@ -221,7 +221,7 @@ namespace Team3_Project
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label2.Location = new System.Drawing.Point(328, 105);
+            this.label2.Location = new System.Drawing.Point(347, 142);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(133, 25);
@@ -233,7 +233,7 @@ namespace Team3_Project
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(124, 105);
+            this.label3.Location = new System.Drawing.Point(130, 142);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 25);
@@ -245,7 +245,7 @@ namespace Team3_Project
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label4.Location = new System.Drawing.Point(593, 105);
+            this.label4.Location = new System.Drawing.Point(603, 142);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 25);
@@ -254,13 +254,15 @@ namespace Team3_Project
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Black;
+            this.menuStrip1.Font = new System.Drawing.Font("IBM Plex Mono", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.searchToolStripMenuItem,
             this.retrieveInfoToolStripMenuItem,
             this.dataEntryToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(836, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(836, 28);
             this.menuStrip1.TabIndex = 15;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -271,35 +273,44 @@ namespace Team3_Project
             this.flightNumberSeatsToolStripMenuItem,
             this.custNumberPasswordToolStripMenuItem,
             this.resNumberCustInfoToolStripMenuItem});
+            this.searchToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.searchToolStripMenuItem.Text = "Search";
             // 
             // flightNumberCustomersToolStripMenuItem
             // 
+            this.flightNumberCustomersToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.flightNumberCustomersToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.flightNumberCustomersToolStripMenuItem.Name = "flightNumberCustomersToolStripMenuItem";
-            this.flightNumberCustomersToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.flightNumberCustomersToolStripMenuItem.Size = new System.Drawing.Size(308, 24);
             this.flightNumberCustomersToolStripMenuItem.Text = "Flight Number Customers";
             this.flightNumberCustomersToolStripMenuItem.Click += new System.EventHandler(this.flightNumberCustomersToolStripMenuItem_Click);
             // 
             // flightNumberSeatsToolStripMenuItem
             // 
+            this.flightNumberSeatsToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.flightNumberSeatsToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.flightNumberSeatsToolStripMenuItem.Name = "flightNumberSeatsToolStripMenuItem";
-            this.flightNumberSeatsToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.flightNumberSeatsToolStripMenuItem.Size = new System.Drawing.Size(308, 24);
             this.flightNumberSeatsToolStripMenuItem.Text = "Flight Number Seats";
             this.flightNumberSeatsToolStripMenuItem.Click += new System.EventHandler(this.flightNumberSeatsToolStripMenuItem_Click);
             // 
             // custNumberPasswordToolStripMenuItem
             // 
+            this.custNumberPasswordToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.custNumberPasswordToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.custNumberPasswordToolStripMenuItem.Name = "custNumberPasswordToolStripMenuItem";
-            this.custNumberPasswordToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.custNumberPasswordToolStripMenuItem.Size = new System.Drawing.Size(308, 24);
             this.custNumberPasswordToolStripMenuItem.Text = "Cust. Number Password";
             this.custNumberPasswordToolStripMenuItem.Click += new System.EventHandler(this.custNumberPasswordToolStripMenuItem_Click);
             // 
             // resNumberCustInfoToolStripMenuItem
             // 
+            this.resNumberCustInfoToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.resNumberCustInfoToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.resNumberCustInfoToolStripMenuItem.Name = "resNumberCustInfoToolStripMenuItem";
-            this.resNumberCustInfoToolStripMenuItem.Size = new System.Drawing.Size(211, 22);
+            this.resNumberCustInfoToolStripMenuItem.Size = new System.Drawing.Size(308, 24);
             this.resNumberCustInfoToolStripMenuItem.Text = "Res. Number Cust. Info";
             this.resNumberCustInfoToolStripMenuItem.Click += new System.EventHandler(this.resNumberCustInfoToolStripMenuItem_Click);
             // 
@@ -309,28 +320,35 @@ namespace Team3_Project
             this.listAllCustomersToolStripMenuItem,
             this.listAllCountriesToolStripMenuItem,
             this.listAllCountriesToolStripMenuItem1});
+            this.retrieveInfoToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.retrieveInfoToolStripMenuItem.Name = "retrieveInfoToolStripMenuItem";
-            this.retrieveInfoToolStripMenuItem.Size = new System.Drawing.Size(85, 20);
+            this.retrieveInfoToolStripMenuItem.Size = new System.Drawing.Size(151, 24);
             this.retrieveInfoToolStripMenuItem.Text = "Retrieve Info";
             // 
             // listAllCustomersToolStripMenuItem
             // 
+            this.listAllCustomersToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.listAllCustomersToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.listAllCustomersToolStripMenuItem.Name = "listAllCustomersToolStripMenuItem";
-            this.listAllCustomersToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.listAllCustomersToolStripMenuItem.Size = new System.Drawing.Size(258, 24);
             this.listAllCustomersToolStripMenuItem.Text = "List All Customers";
             this.listAllCustomersToolStripMenuItem.Click += new System.EventHandler(this.listAllCustomersToolStripMenuItem_Click);
             // 
             // listAllCountriesToolStripMenuItem
             // 
+            this.listAllCountriesToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.listAllCountriesToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.listAllCountriesToolStripMenuItem.Name = "listAllCountriesToolStripMenuItem";
-            this.listAllCountriesToolStripMenuItem.Size = new System.Drawing.Size(169, 22);
+            this.listAllCountriesToolStripMenuItem.Size = new System.Drawing.Size(258, 24);
             this.listAllCountriesToolStripMenuItem.Text = "List all Countries";
             this.listAllCountriesToolStripMenuItem.Click += new System.EventHandler(this.listAllCountriesToolStripMenuItem_Click);
             // 
             // listAllCountriesToolStripMenuItem1
             // 
+            this.listAllCountriesToolStripMenuItem1.BackColor = System.Drawing.Color.Black;
+            this.listAllCountriesToolStripMenuItem1.ForeColor = System.Drawing.Color.Green;
             this.listAllCountriesToolStripMenuItem1.Name = "listAllCountriesToolStripMenuItem1";
-            this.listAllCountriesToolStripMenuItem1.Size = new System.Drawing.Size(169, 22);
+            this.listAllCountriesToolStripMenuItem1.Size = new System.Drawing.Size(258, 24);
             this.listAllCountriesToolStripMenuItem1.Text = "List all Records";
             // 
             // dataEntryToolStripMenuItem
@@ -340,35 +358,44 @@ namespace Team3_Project
             this.addACountryToolStripMenuItem,
             this.addABoatToolStripMenuItem,
             this.addACarToolStripMenuItem});
+            this.dataEntryToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.dataEntryToolStripMenuItem.Name = "dataEntryToolStripMenuItem";
-            this.dataEntryToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
+            this.dataEntryToolStripMenuItem.Size = new System.Drawing.Size(121, 24);
             this.dataEntryToolStripMenuItem.Text = "Data Entry";
             // 
             // addACustomerToolStripMenuItem
             // 
+            this.addACustomerToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.addACustomerToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.addACustomerToolStripMenuItem.Name = "addACustomerToolStripMenuItem";
-            this.addACustomerToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.addACustomerToolStripMenuItem.Size = new System.Drawing.Size(218, 24);
             this.addACustomerToolStripMenuItem.Text = "Add a Customer";
             this.addACustomerToolStripMenuItem.Click += new System.EventHandler(this.addACustomerToolStripMenuItem_Click);
             // 
             // addACountryToolStripMenuItem
             // 
+            this.addACountryToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.addACountryToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.addACountryToolStripMenuItem.Name = "addACountryToolStripMenuItem";
-            this.addACountryToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.addACountryToolStripMenuItem.Size = new System.Drawing.Size(218, 24);
             this.addACountryToolStripMenuItem.Text = "Add a Country";
             this.addACountryToolStripMenuItem.Click += new System.EventHandler(this.addACountryToolStripMenuItem_Click);
             // 
             // addABoatToolStripMenuItem
             // 
+            this.addABoatToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.addABoatToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.addABoatToolStripMenuItem.Name = "addABoatToolStripMenuItem";
-            this.addABoatToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.addABoatToolStripMenuItem.Size = new System.Drawing.Size(218, 24);
             this.addABoatToolStripMenuItem.Text = "Add a Boat";
             this.addABoatToolStripMenuItem.Click += new System.EventHandler(this.addABoatToolStripMenuItem_Click);
             // 
             // addACarToolStripMenuItem
             // 
+            this.addACarToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.addACarToolStripMenuItem.ForeColor = System.Drawing.Color.Green;
             this.addACarToolStripMenuItem.Name = "addACarToolStripMenuItem";
-            this.addACarToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.addACarToolStripMenuItem.Size = new System.Drawing.Size(218, 24);
             this.addACarToolStripMenuItem.Text = "Add a Car";
             this.addACarToolStripMenuItem.Click += new System.EventHandler(this.addACarToolStripMenuItem_Click);
             // 
@@ -398,7 +425,6 @@ namespace Team3_Project
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
