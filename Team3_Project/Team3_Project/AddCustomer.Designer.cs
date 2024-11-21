@@ -252,7 +252,7 @@ namespace Team3_Project
             this.textCustNo.Name = "textCustNo";
             this.textCustNo.Size = new System.Drawing.Size(198, 32);
             this.textCustNo.TabIndex = 16;
-            this.textCustNo.Text = "123456789";
+            //this.textCustNo.Text = "123456789";
             // 
             // textFirstName
             // 
@@ -265,7 +265,7 @@ namespace Team3_Project
             this.textFirstName.Name = "textFirstName";
             this.textFirstName.Size = new System.Drawing.Size(198, 32);
             this.textFirstName.TabIndex = 17;
-            this.textFirstName.Text = "joe";
+            //this.textFirstName.Text = "joe";
             // 
             // textLastName
             // 
@@ -278,7 +278,7 @@ namespace Team3_Project
             this.textLastName.Name = "textLastName";
             this.textLastName.Size = new System.Drawing.Size(198, 32);
             this.textLastName.TabIndex = 18;
-            this.textLastName.Text = "mama";
+            //this.textLastName.Text = "mama";
             // 
             // textAddress
             // 
@@ -291,7 +291,7 @@ namespace Team3_Project
             this.textAddress.Name = "textAddress";
             this.textAddress.Size = new System.Drawing.Size(198, 32);
             this.textAddress.TabIndex = 19;
-            this.textAddress.Text = "123 address st";
+            //this.textAddress.Text = "123 address st";
             // 
             // textCity
             // 
@@ -304,7 +304,7 @@ namespace Team3_Project
             this.textCity.Name = "textCity";
             this.textCity.Size = new System.Drawing.Size(198, 32);
             this.textCity.TabIndex = 20;
-            this.textCity.Text = "city";
+            //this.textCity.Text = "city";
             // 
             // textState
             // 
@@ -317,7 +317,7 @@ namespace Team3_Project
             this.textState.Name = "textState";
             this.textState.Size = new System.Drawing.Size(198, 32);
             this.textState.TabIndex = 21;
-            this.textState.Text = "st";
+            //this.textState.Text = "st";
             // 
             // textZip
             // 
@@ -330,7 +330,7 @@ namespace Team3_Project
             this.textZip.Name = "textZip";
             this.textZip.Size = new System.Drawing.Size(198, 32);
             this.textZip.TabIndex = 22;
-            this.textZip.Text = "54321";
+            //this.textZip.Text = "54321";
             // 
             // textPhone
             // 
@@ -343,7 +343,7 @@ namespace Team3_Project
             this.textPhone.Name = "textPhone";
             this.textPhone.Size = new System.Drawing.Size(198, 32);
             this.textPhone.TabIndex = 23;
-            this.textPhone.Text = "4206666969";
+            //this.textPhone.Text = "4206666969";
             // 
             // textEmail
             // 
@@ -356,7 +356,7 @@ namespace Team3_Project
             this.textEmail.Name = "textEmail";
             this.textEmail.Size = new System.Drawing.Size(198, 32);
             this.textEmail.TabIndex = 24;
-            this.textEmail.Text = "joemama@email.com";
+            //this.textEmail.Text = "joemama@email.com";
             // 
             // textDOB
             // 
@@ -369,7 +369,7 @@ namespace Team3_Project
             this.textDOB.Name = "textDOB";
             this.textDOB.Size = new System.Drawing.Size(198, 32);
             this.textDOB.TabIndex = 25;
-            this.textDOB.Text = "09112001";
+            //this.textDOB.Text = "09112001";
             // 
             // textGender
             // 
@@ -382,7 +382,7 @@ namespace Team3_Project
             this.textGender.Name = "textGender";
             this.textGender.Size = new System.Drawing.Size(198, 32);
             this.textGender.TabIndex = 26;
-            this.textGender.Text = "m";
+            //this.textGender.Text = "m";
             // 
             // textPassword
             // 
@@ -395,7 +395,7 @@ namespace Team3_Project
             this.textPassword.Name = "textPassword";
             this.textPassword.Size = new System.Drawing.Size(198, 32);
             this.textPassword.TabIndex = 27;
-            this.textPassword.Text = "password";
+            //this.textPassword.Text = "password";
             // 
             // textCreditCard
             // 
@@ -408,7 +408,7 @@ namespace Team3_Project
             this.textCreditCard.Name = "textCreditCard";
             this.textCreditCard.Size = new System.Drawing.Size(198, 32);
             this.textCreditCard.TabIndex = 28;
-            this.textCreditCard.Text = "1234567812345678";
+            //this.textCreditCard.Text = "1234567812345678";
             // 
             // textPayments
             // 
@@ -421,7 +421,7 @@ namespace Team3_Project
             this.textPayments.Name = "textPayments";
             this.textPayments.Size = new System.Drawing.Size(198, 32);
             this.textPayments.TabIndex = 29;
-            this.textPayments.Text = "0";
+            //this.textPayments.Text = "0";
             // 
             // buttonSubmit
             // 
