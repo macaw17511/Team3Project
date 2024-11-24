@@ -29,23 +29,17 @@ namespace Team3_Project
 
             try
             {
-                // Initialize the connection
                 conn = new iDB2Connection("Data Source=10.250.0.30");
                 conn.Open();
 
-                // Define the query
                 string cmdText = "SELECT CustomerName FROM FlightCustomers WHERE FlightNumber = @FlightNumber";
 
-                // Create the command object
                 iDB2Command cmd = new iDB2Command(cmdText, conn);
 
-                // Automatically derive the parameters for the query
                 cmd.DeriveParameters();
 
-                // Sets the parameter value
                 cmd.Parameters["@FlightNumber"].Value = flightNumber;
 
-                // Executes the command and fetches results
                 using (iDB2DataReader reader = cmd.ExecuteReader())
                 {
                     if (reader.HasRows)
