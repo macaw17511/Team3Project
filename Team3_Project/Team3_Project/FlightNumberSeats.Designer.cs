@@ -1,4 +1,4 @@
-﻿namespace Team3_Project
+namespace Team3_Project
 {
     partial class FlightNumberSeats
     {
@@ -30,7 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.lstSeatInfo = new System.Windows.Forms.ListBox();
-            this.txtFlightNumber = new System.Windows.Forms.TextBox();
+            this.txtSeatNumber = new System.Windows.Forms.TextBox();
             this.btnShowInfo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -56,12 +56,12 @@
             this.lstSeatInfo.Size = new System.Drawing.Size(376, 303);
             this.lstSeatInfo.TabIndex = 2;
             // 
-            // txtFlightNumber
+            // txtSeatNumber
             // 
-            this.txtFlightNumber.Location = new System.Drawing.Point(42, 106);
-            this.txtFlightNumber.Name = "txtFlightNumber";
-            this.txtFlightNumber.Size = new System.Drawing.Size(175, 20);
-            this.txtFlightNumber.TabIndex = 5;
+            this.txtSeatNumber.Location = new System.Drawing.Point(42, 106);
+            this.txtSeatNumber.Name = "txtSeatNumber";
+            this.txtSeatNumber.Size = new System.Drawing.Size(175, 20);
+            this.txtSeatNumber.TabIndex = 5;
             // 
             // btnShowInfo
             // 
@@ -79,7 +79,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btnShowInfo);
-            this.Controls.Add(this.txtFlightNumber);
+            this.Controls.Add(this.txtSeatNumber);
             this.Controls.Add(this.lstSeatInfo);
             this.Controls.Add(this.label1);
             this.Name = "FlightNumberSeats";
@@ -93,7 +93,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ListBox lstSeatInfo;
-        private System.Windows.Forms.TextBox txtFlightNumber;
+        private System.Windows.Forms.TextBox txtSeatNumber;
         private System.Windows.Forms.Button btnShowInfo;
     }
 }
