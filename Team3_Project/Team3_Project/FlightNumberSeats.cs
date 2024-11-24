@@ -31,19 +31,60 @@ namespace Team3_Project
         }
         private void btnShowInfo_Click(object sender, EventArgs e)
         {
-            string flightNumber = txtFlightNumber.Text;
+            string seatNumber = txtSeatNumber.Text;
 
-            if (!string.IsNullOrEmpty(flightNumber))
+            if (string.IsNullOrEmpty(seatNumber))
             {
-                lstSeatInfo.Items.Add($"Customer info for Flight: {flightNumber}");
-
-                txtFlightNumber.Clear();
+                MessageBox.Show("Please enter a seat number.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            else
+
+            try
             {
+                conn = new iDB2Connection("Data Source=10.250.0.30");
+                conn.Open();
 
-                MessageBox.Show("Please enter a flight number.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string cmdText = "SELECT CustomerName FROM SeatCustomers WHERE SeatNumber = @SeatNumber";
+
+                iDB2Command cmd = new iDB2Command(cmdText, conn);
+
+                cmd.DeriveParameters();
+
+                cmd.Parameters["@SeatNumber"].Value = seatNumber;
+
+                using (iDB2DataReader reader = cmd.ExecuteReader())
+                {
+                    if (reader.HasRows)
+                    {
+                        lstSeatInfo.Items.Clear();
+                        lstSeatInfo.Items.Add($"Customer info for Seat: {seatNumber}");
+
+                        while (reader.Read())
+                        {
+                            lstSeatInfo.Items.Add(reader["CustomerName"].ToString());
+                        }
+
+                        MessageBox.Show($"Customer details for Seat {seatNumber} found.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show($"No customers found for Seat {seatNumber}.", "No Results", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                }
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                if (conn != null && conn.State == ConnectionState.Open)
+                    conn.Close();
+            }
+            txtSeatNumber.Clear();
         }
     }
 }
+    
+
+
