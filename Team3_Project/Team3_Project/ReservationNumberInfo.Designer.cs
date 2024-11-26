@@ -71,11 +71,11 @@
             // 
             this.labelthatsnameisnotused.AutoSize = true;
             this.labelthatsnameisnotused.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.labelthatsnameisnotused.Location = new System.Drawing.Point(249, 352);
+            this.labelthatsnameisnotused.Location = new System.Drawing.Point(304, 352);
             this.labelthatsnameisnotused.Name = "labelthatsnameisnotused";
-            this.labelthatsnameisnotused.Size = new System.Drawing.Size(316, 13);
+            this.labelthatsnameisnotused.Size = new System.Drawing.Size(195, 13);
             this.labelthatsnameisnotused.TabIndex = 4;
-            this.labelthatsnameisnotused.Text = "Please Enter Your Reservation Number, Must be between 1 and .";
+            this.labelthatsnameisnotused.Text = "Please Enter Your Reservation Number,";
             // 
             // ResInputTxt
             // 
