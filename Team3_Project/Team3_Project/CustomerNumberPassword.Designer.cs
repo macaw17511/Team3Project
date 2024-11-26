@@ -1,4 +1,4 @@
-﻿namespace Team3_Project
+namespace Team3_Project
 {
     partial class CustomerNumberPassword
     {
@@ -32,16 +32,12 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            //this.adventureWorksLT2016DataSet = new Team3_Project.AdventureWorksLT2016DataSet();
-            //this.customerTableAdapter = new Team3_Project.AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter();
             this.searchIDBtn = new System.Windows.Forms.Button();
             this.IDInputTxt = new System.Windows.Forms.TextBox();
-            //this.customerIDtxt = new Team3_Project.AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter();
             this.label2 = new System.Windows.Forms.Label();
             this.ErrorLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
-            //((System.ComponentModel.ISupportInitialize)(this.adventureWorksLT2016DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -69,16 +65,6 @@
             // customerBindingSource
             // 
             this.customerBindingSource.DataMember = "Customer";
-            //this.customerBindingSource.DataSource = this.adventureWorksLT2016DataSet;
-            // 
-            // adventureWorksLT2016DataSet
-            // 
-            //this.adventureWorksLT2016DataSet.DataSetName = "AdventureWorksLT2016DataSet";
-            //this.adventureWorksLT2016DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // customerTableAdapter
-            // 
-            //this.customerTableAdapter.ClearBeforeFill = true;
             // 
             // searchIDBtn
             // 
@@ -97,19 +83,15 @@
             this.IDInputTxt.Size = new System.Drawing.Size(100, 20);
             this.IDInputTxt.TabIndex = 4;
             // 
-            // customerIDtxt
-            // 
-            //this.customerIDtxt.ClearBeforeFill = true;
-            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(259, 361);
+            this.label2.Location = new System.Drawing.Point(322, 361);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(278, 13);
+            this.label2.Size = new System.Drawing.Size(157, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Input ID to Find Your Password. Must be between 1 and .";
+            this.label2.Text = "Input ID to Find Your Password.";
             // 
             // ErrorLbl
             // 
@@ -139,7 +121,6 @@
             this.Load += new System.EventHandler(this.CustomerNumberPassword_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).EndInit();
-            //((System.ComponentModel.ISupportInitialize)(this.adventureWorksLT2016DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
