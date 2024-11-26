@@ -32,16 +32,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.customerBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.adventureWorksLT2016DataSet = new Team3_Project.AdventureWorksLT2016DataSet();
-            this.customerTableAdapter = new Team3_Project.AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter();
+            //this.adventureWorksLT2016DataSet = new Team3_Project.AdventureWorksLT2016DataSet();
+            //this.customerTableAdapter = new Team3_Project.AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter();
             this.searchIDBtn = new System.Windows.Forms.Button();
             this.IDInputTxt = new System.Windows.Forms.TextBox();
-            this.customerIDtxt = new Team3_Project.AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter();
+            //this.customerIDtxt = new Team3_Project.AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter();
             this.label2 = new System.Windows.Forms.Label();
             this.ErrorLbl = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.adventureWorksLT2016DataSet)).BeginInit();
+            //((System.ComponentModel.ISupportInitialize)(this.adventureWorksLT2016DataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -69,16 +69,16 @@
             // customerBindingSource
             // 
             this.customerBindingSource.DataMember = "Customer";
-            this.customerBindingSource.DataSource = this.adventureWorksLT2016DataSet;
+            //this.customerBindingSource.DataSource = this.adventureWorksLT2016DataSet;
             // 
             // adventureWorksLT2016DataSet
             // 
-            this.adventureWorksLT2016DataSet.DataSetName = "AdventureWorksLT2016DataSet";
-            this.adventureWorksLT2016DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            //this.adventureWorksLT2016DataSet.DataSetName = "AdventureWorksLT2016DataSet";
+            //this.adventureWorksLT2016DataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
             // customerTableAdapter
             // 
-            this.customerTableAdapter.ClearBeforeFill = true;
+            //this.customerTableAdapter.ClearBeforeFill = true;
             // 
             // searchIDBtn
             // 
@@ -99,7 +99,7 @@
             // 
             // customerIDtxt
             // 
-            this.customerIDtxt.ClearBeforeFill = true;
+            //this.customerIDtxt.ClearBeforeFill = true;
             // 
             // label2
             // 
@@ -139,7 +139,7 @@
             this.Load += new System.EventHandler(this.CustomerNumberPassword_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.customerBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.adventureWorksLT2016DataSet)).EndInit();
+            //((System.ComponentModel.ISupportInitialize)(this.adventureWorksLT2016DataSet)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -149,12 +149,12 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private AdventureWorksLT2016DataSet adventureWorksLT2016DataSet;
+        //private AdventureWorksLT2016DataSet adventureWorksLT2016DataSet;
         private System.Windows.Forms.BindingSource customerBindingSource;
-        private AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter customerTableAdapter;
+        //private AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter customerTableAdapter;
         private System.Windows.Forms.Button searchIDBtn;
         private System.Windows.Forms.TextBox IDInputTxt;
-        private AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter customerIDtxt;
+        //private AdventureWorksLT2016DataSetTableAdapters.CustomerTableAdapter customerIDtxt;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label ErrorLbl;
     }
